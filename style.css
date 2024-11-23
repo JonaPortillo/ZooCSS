@@ -1,0 +1,111 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2, h3, p {
+  text-align: center;
+  margin-bottom: 20px;
+} 
+
+/* Encabezado */
+.encabezado {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  padding: 20px;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navegacion a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.navegacion a:hover {
+  background-color: #37803a;
+}
+
+/* Secciones */
+.seccion {
+  padding: 20px 20px;
+  /* margin: 20px 0; */
+}
+
+.subtitulo {
+  font-size: 24px;
+}
+
+/* Animales */
+.contenedor-animales {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.animal {
+  background-color: #A5D6A7; /* Verde claro */
+  padding: 15px;
+  border-radius: 23px;
+  width: 30%;
+}
+
+.animal img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Formulario */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input, .textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #4CAF50;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.textarea {
+  height: 100px;
+}
+
+.boton {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #45a049; /* Verde oscuro */
+}
+
+/* Pie de página */
+.pie {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
